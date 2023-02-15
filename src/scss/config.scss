@@ -1,0 +1,32 @@
+// Variables
+@import "./include/variables.scss";
+
+// Fonts
+@import "./include/fonts.scss";
+
+// Destyle https://github.com/nicolas-cusan/destyle.css
+@import "./libs/destyle";
+
+// Preloader
+@import "./include/preloader.scss";
+
+// Swiper https://github.com/nolimits4web/swiper/
+@import "./libs/swiper-bundle";
+
+// Global
+@import "./libs/global.scss";
+
+// Reuse
+@import "./include/reuse.scss";
+
+// Header
+@import "./include/header.scss";
+
+// Main
+@import "./include/main.scss";
+
+// Footer
+@import "./include/footer.scss";
+
+// Outline-box
+// @import "./libs/outline-box.scss";

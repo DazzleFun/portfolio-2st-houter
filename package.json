@@ -1,0 +1,42 @@
+{
+  "name": "gulp-relict-web",
+  "version": "1.0",
+  "description": "If you want to do something well, do it yourself.",
+  "author": "Yevhen Korotkov, github.com/DazzleFun",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "gulp": "latest",
+    "make-dir": "latest",
+    "gulp-clean": "latest",
+    "browser-sync": "latest",
+    "gulp-plumber": "latest",
+    "gulp-notify": "latest",
+    "gulp-rename": "latest",
+    "gulp-newer": "latest",
+    "gulp-replace": "latest",
+    "gulp-file-include": "latest",
+    "gulp-version-number": "latest",
+    "gulp-htmlmin": "latest",
+    "sass": "latest",
+    "gulp-sass": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-group-css-media-queries": "latest",
+    "gulp-clean-css": "latest",
+    "webpack": "latest",
+    "webpack-stream": "latest",
+    "terser-webpack-plugin": "latest",
+    "gulp-ttf2woff2": "latest",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-webp": "latest",
+    "gulp-svg-sprite":  "latest",
+    "gulp-zip": "latest"
+  },
+  "dependencies": {
+    "destyle.css": "latest",
+    "swiper": "^8.4.6"
+  }
+}

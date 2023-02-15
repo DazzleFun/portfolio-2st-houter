@@ -1,0 +1,119 @@
+// .container
+.container {
+  width: 100%;
+  max-width: $content-max-width;
+  padding: 0 $padding;
+}
+
+// @extend
+.f-ai-c {
+  display: flex;
+  align-items: center;
+}
+.f-ai-jc-c {
+  @extend .f-ai-c;
+  justify-content: center;
+}
+.f-ai-c-jc-sb {
+  @extend .f-ai-c;
+  justify-content: space-between;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+// Fonts
+.n-400-14px-paragraph {
+  font: 400 14px "Lexend", sans-serif;
+  color: $neutral-1;
+  line-height: 171%;
+  opacity: 0.75;
+}
+.n1-400-16px-28lh {
+  font: 400 16px "Lexend", sans-serif;
+  color: $neutral-1;
+  opacity: 0.7;
+  line-height: 175%; /* 28/16 */
+}
+.n5-400-16px-32lh {
+  font: 400 16px "Lexend", sans-serif;
+  color: $neutral-5;
+  line-height: 200%; /* 32/16 */
+}
+.n5-500-14px-22lh {
+  font: 500 14px "Lexend", sans-serif;
+  color: $neutral-5;
+  line-height: 137.5%; /* 22/16 */
+}
+.hl-500-18px-22lh {
+  font: 500 18px "Lexend", sans-serif;
+  color: $headline;
+  line-height: 122.22%; /* 22/18 */
+}
+.shl-400-12px-20lh {
+  font: 400 12px "Lexend", sans-serif;
+  color: $subheadline;
+  line-height: 166.66%; /* 20/12 */
+}
+.hl-500-12px-20lh {
+  font: 500 12px "Lexend", sans-serif;
+  color: $headline;
+  line-height: 167%;
+}
+.y-500-12px-18lh {
+  font: 500 14px "Lexend", sans-serif;
+  color: $yellow;
+  line-height: 128.57%; /* 18/14 */
+}
+.hl-600-32px-40lh {
+  font: 600 $c32-24 "Lexend", sans-serif;
+  color: $headline;
+  line-height: 125%; /* 40/32 */
+}
+.n-500-24px-32lh {
+  font: 500 $c24-18 "Lexend", sans-serif;
+  color: $neutral-9;
+  line-height: 133.33%; /* 32/24 */
+}
+.n-500-20px-32lh {
+  font: 500 $c20-16 "Lexend", sans-serif;
+  color: $neutral-7;
+  line-height: 160%; /* 32/20 */
+}
+
+
+// .logo
+.logo {
+  display: flex;
+  align-items: center;
+  user-select: none;
+
+  // .logo__image
+  &__image {
+    width: 32px;
+    height: 32px;
+  }
+
+  // .logo__text
+  &__text {
+    font: 700 16px "Lexend", sans-serif;
+    color: $headline;
+    padding-left: 12px;
+  }
+}
+
+.line32px {
+  display: flex;
+  width: 100%;
+  max-width: 32px;
+  min-height: 1px;
+  max-height: 1px;
+  margin: 8px 8px 0 0;
+  background-color: $yellow;
+  @media (max-width: 937px) {
+    display: none;
+  }
+}

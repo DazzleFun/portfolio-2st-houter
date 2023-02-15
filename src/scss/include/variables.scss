@@ -1,0 +1,72 @@
+@use "sass:math";
+
+// Content limiter
+$min-width: 320px;
+$content: 1200px;
+$padding: 15px;
+
+// Theme colors
+$light-theme: white;
+$dark-theme: #2b2a33;
+
+// math (don't touch)
+$content-max-width: $content + $padding + $padding;
+
+// Colors
+$neutral-1: #626687;
+$neutral-3: #E0E3EB;
+$neutral-5: #888B97;
+$neutral-7: #3C4563;
+$neutral-9: #0E1735;
+$headline: #1B1C57;
+$subheadline: #68799F;
+$yellow: #F59E0B;
+$green-1: #D1FAE5;
+$green-5: #10B981;
+$green-7: #047857;
+$rectangle: #F0FAFD;
+$red-1: #FEE2E2;
+$red-5: #EF4444;
+$blue-7: #1D4ED8;
+$blue-1: #DBEAFE;
+
+// Clamps generator
+  // (1230 -> 320)
+$c46-0: clamp(0.0000001rem, -1.011rem + 5.0549vw, 2.875rem);
+$c40-16: clamp(1rem, 0.4725rem + 2.6374vw, 2.5rem);
+$c120-43: clamp(2.6875rem, 0.9952rem + 8.4615vw, 7.5rem);
+$c120-0: clamp(0.0000001rem, -2.6374rem + 13.1868vw, 7.5rem);
+  // (680 -> 320)
+$c24-12: clamp(0.75rem, 0.0833rem + 3.3333vw, 1.5rem);
+  // (1070 -> 320)
+$c182-76: clamp(4.75rem, 1.9233rem + 14.1333vw, 11.375rem);
+$c141-43: clamp(2.6875rem, 0.0742rem + 13.0667vw, 8.8125rem);
+  // (1230 -> 890)
+$c88-30: clamp(1.875rem, -7.614rem + 17.0588vw, 5.5rem);
+  // (1440 -> 3000)
+$c688-1433: clamp(43rem, 0.0192rem + 47.7564vw, 89.5625rem);
+$c481-1002: clamp(30.0625rem, 0.0048rem + 33.3974vw, 62.625rem);
+$c520-1083: clamp(32.5rem, 0.0192rem + 36.0897vw, 67.6875rem);
+$c800-1667: clamp(50rem, -0.0192rem + 55.5769vw, 104.1875rem);
+$c472-984: clamp(29.5rem, -0.0385rem + 32.8205vw, 61.5rem);
+$c935-1948: clamp(58.4375rem, -0.0048rem + 64.9359vw, 121.75rem);
+$c660-1375: clamp(41.25rem, 0.00001rem + 45.8333vw, 85.9375rem);
+$c507-1056: clamp(31.6875rem, 0.0144rem + 35.1923vw, 66rem);
+
+  // (1440 -> 320)
+$c688-230: clamp(14.375rem, 6.1964rem + 40.8929vw, 43rem);
+$c481-161: clamp(10.0625rem, 4.3482rem + 28.5714vw, 30.0625rem);
+$c520-174: clamp(10.875rem, 4.6964rem + 30.8929vw, 32.5rem);
+$c800-276: clamp(17.25rem, 7.8929rem + 46.7857vw, 50rem);
+$c472-158: clamp(9.875rem, 4.2679rem + 28.0357vw, 29.5rem);
+$c935-312: clamp(19.5rem, 8.375rem + 55.625vw, 58.4375rem);
+$c660-221: clamp(13.8125rem, 5.9732rem + 39.1964vw, 41.25rem);
+$c507-170: clamp(10.625rem, 4.6071rem + 30.0893vw, 31.6875rem);
+
+// Fonts
+  // (1230 -> 320)
+$c32-24: clamp(1.5rem, 1.3242rem + 0.8791vw, 2rem);
+$c20-16: clamp(1rem, 0.9121rem + 0.4396vw, 1.25rem);
+$c24-18: clamp(1.125rem, 0.9931rem + 0.6593vw, 1.5rem);
+$c18-16: clamp(1rem, 0.956rem + 0.2198vw, 1.125rem);
+$c40-32: clamp(1.875rem, 1.6552rem + 1.0989vw, 2.5rem);

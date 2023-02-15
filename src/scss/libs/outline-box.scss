@@ -1,0 +1,186 @@
+body > * {
+  outline: 1px solid $dark-theme;
+  @media (prefers-color-scheme: dark) {
+    outline: 1px solid $light-theme;
+  }
+  & > * {
+    outline: 1px dashed $dark-theme;
+    @media (prefers-color-scheme: dark) {
+      outline: 1px solid $light-theme;
+    }
+    & > * {
+      outline: 1px dashed $dark-theme;
+      @media (prefers-color-scheme: dark) {
+        outline: 1px solid $light-theme;
+      }
+      & > * {
+        outline: 1px dashed $dark-theme;
+        @media (prefers-color-scheme: dark) {
+          outline: 1px solid $light-theme;
+        }
+        & > * {
+          outline: 1px dashed $dark-theme;
+          @media (prefers-color-scheme: dark) {
+            outline: 1px solid $light-theme;
+          }
+          & > * {
+            outline: 1px dashed $dark-theme;
+            @media (prefers-color-scheme: dark) {
+              outline: 1px solid $light-theme;
+            }
+            & > * {
+              outline: 1px dashed $dark-theme;
+              @media (prefers-color-scheme: dark) {
+                outline: 1px solid $light-theme;
+              }
+              & > * {
+                outline: 1px dashed $dark-theme;
+                @media (prefers-color-scheme: dark) {
+                  outline: 1px solid $light-theme;
+                }
+                & > * {
+                  outline: 1px dashed $dark-theme;
+                  @media (prefers-color-scheme: dark) {
+                    outline: 1px solid $light-theme;
+                  }
+                  & > * {
+                    outline: 1px dashed $dark-theme;
+                    @media (prefers-color-scheme: dark) {
+                      outline: 1px solid $light-theme;
+                    }
+                    & > * {
+                      outline: 1px dashed $dark-theme;
+                      @media (prefers-color-scheme: dark) {
+                        outline: 1px solid $light-theme;
+                      }
+                      & > * {
+                        outline: 1px dashed $dark-theme;
+                        @media (prefers-color-scheme: dark) {
+                          outline: 1px solid $light-theme;
+                        }
+                        & > * {
+                          outline: 1px dashed $dark-theme;
+                          @media (prefers-color-scheme: dark) {
+                            outline: 1px solid $light-theme;
+                          }
+                          & > * {
+                            outline: 1px dashed $dark-theme;
+                            @media (prefers-color-scheme: dark) {
+                              outline: 1px solid $light-theme;
+                            }
+                            & > * {
+                              outline: 1px dashed $dark-theme;
+                              @media (prefers-color-scheme: dark) {
+                                outline: 1px solid $light-theme;
+                              }
+                              & > * {
+                                outline: 1px dashed $dark-theme;
+                                @media (prefers-color-scheme: dark) {
+                                  outline: 1px solid $light-theme;
+                                }
+                                & > * {
+                                  outline: 1px dashed $dark-theme;
+                                  @media (prefers-color-scheme: dark) {
+                                    outline: 1px solid $light-theme;
+                                  }
+                                  & > * {
+                                    outline: 1px dashed $dark-theme;
+                                    @media (prefers-color-scheme: dark) {
+                                      outline: 1px solid $light-theme;
+                                    }
+                                    & > * {
+                                      outline: 1px dashed $dark-theme;
+                                      @media (prefers-color-scheme: dark) {
+                                        outline: 1px solid $light-theme;
+                                      }
+                                      & > * {
+                                        outline: 1px dashed $dark-theme;
+                                        @media (prefers-color-scheme: dark) {
+                                          outline: 1px solid $light-theme;
+                                        }
+                                        & > * {
+                                          outline: 1px dashed $dark-theme;
+                                          @media (prefers-color-scheme: dark) {
+                                            outline: 1px solid $light-theme;
+                                          }
+                                          & > * {
+                                            outline: 1px dashed $dark-theme;
+                                            @media (prefers-color-scheme: dark) {
+                                              outline: 1px solid $light-theme;
+                                            }
+                                            & > * {
+                                              outline: 1px dashed $dark-theme;
+                                              @media (prefers-color-scheme: dark) {
+                                                outline: 1px solid $light-theme;
+                                              }
+                                              & > * {
+                                                outline: 1px dashed $dark-theme;
+                                                @media (prefers-color-scheme: dark) {
+                                                  outline: 1px solid $light-theme;
+                                                }
+                                                & > * {
+                                                  outline: 1px dashed $dark-theme;
+                                                  @media (prefers-color-scheme: dark) {
+                                                    outline: 1px solid $light-theme;
+                                                  }
+                                                  & > * {
+                                                    outline: 1px dashed $dark-theme;
+                                                    @media (prefers-color-scheme: dark) {
+                                                      outline: 1px solid $light-theme;
+                                                    }
+                                                    & > * {
+                                                      outline: 1px dashed $dark-theme;
+                                                      @media (prefers-color-scheme: dark) {
+                                                        outline: 1px solid $light-theme;
+                                                      }
+                                                      & > * {
+                                                        outline: 1px dashed $dark-theme;
+                                                        @media (prefers-color-scheme: dark) {
+                                                          outline: 1px solid $light-theme;
+                                                        }
+                                                        & > * {
+                                                          outline: 1px dashed $dark-theme;
+                                                          @media (prefers-color-scheme: dark) {
+                                                            outline: 1px solid $light-theme;
+                                                          }
+                                                          & > * {
+                                                            outline: 1px dashed $dark-theme;
+                                                            @media (prefers-color-scheme: dark) {
+                                                              outline: 1px solid $light-theme;
+                                                            }
+                                                            & > * {
+                                                              outline: 1px dashed $dark-theme;
+                                                              @media (prefers-color-scheme: dark) {
+                                                                outline: 1px solid $light-theme;
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
